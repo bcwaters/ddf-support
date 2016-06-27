@@ -83,6 +83,10 @@
         <Package name="ddf.catalog.validation"/>
     </Match>
 
+    <!--  Inherited warning from third party package geotools -->
+    <Match>
+        <Class name="org.codice.ddf.spatial.ogc.csw.catalog.common.PropertyIsFuzzyFunction"/>
+    </Match>
     <!-- Unused class that needs to be removed -->
     <Match>
         <Class name="ddf.catalog.federation.base.AbstractFederatedQueryMonitor"/>
